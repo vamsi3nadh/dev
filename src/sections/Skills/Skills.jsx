@@ -9,18 +9,19 @@ const Skills = () => {
         <SkillList src={checkMarkIcon} skill="HTML" />
         <SkillList src={checkMarkIcon} skill="CSS" />
         <SkillList src={checkMarkIcon} skill="JavaScript" />
+        <SkillList src={checkMarkIcon} skill="Java" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="React Js" />
-        <SkillList src={checkMarkIcon} skill="Express JS" />
-        <SkillList src={checkMarkIcon} skill="Node Js" />
+        <SkillList src={checkMarkIcon} skill="Spring Boot" />
+        <SkillList src={checkMarkIcon} skill="Hibernate" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="MongoDB" />
+        <SkillList src={checkMarkIcon} skill="MySql" />
         <SkillList src={checkMarkIcon} skill="Git" />
-        <SkillList src={checkMarkIcon} skill="SQLite" />
+        <SkillList src={checkMarkIcon} skill="PostgreSql" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
         <SkillList src={checkMarkIcon} skill="GitHub" />
       </div>
